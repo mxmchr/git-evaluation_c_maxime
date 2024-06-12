@@ -23,8 +23,10 @@ def calculate(expression):
     if operator == "*":
         return num1 * num2
     if operator == "/":
-        return num1 / num2
-
+        if num2 == 0:
+            return "Error: Division by zero"
+        else:
+            return num1 / num2
 
 if __name__ == "__main__":
     user_input = read_input()
