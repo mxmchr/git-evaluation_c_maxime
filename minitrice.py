@@ -22,6 +22,9 @@ def calculate(expression):
         return num1 - num2
     if operator == "*":
         return num1 * num2
+    if operator == "/":
+        return num1 / num2
+
 
 if __name__ == "__main__":
     user_input = read_input()
