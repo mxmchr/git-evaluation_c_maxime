@@ -8,14 +8,21 @@
 
 ## Installation
 1. Assurez-vous d'avoir Python 3 installé sur votre système. Si ce n'est pas le cas, vous pouvez le télécharger et l'installer depuis [le site officiel de Python](https://www.python.org/).
+   Vous pouvez aussi l'installer sous linux :
 
-2. Clonez ce dépôt vers votre machine locale en utilisant la commande suivante :
+   ```sh
+    sudo apt update
+    sudo apt install python3
+
+   ```
+
+3. Clonez ce dépôt vers votre machine locale en utilisant la commande suivante :
 
     ```sh
     git clone https://github.com/mxmchr/git-evaluation_c_maxime.git
     ```
 
-3. Accédez au répertoire de votre projet :
+4. Accédez au répertoire de votre projet :
 
     ```sh
     cd git-evaluation_c_maxime
@@ -38,7 +45,7 @@ python3 generator.py <num> | python3 minitrice.py
 Les réponses aux questions adressées sur git :
 
 1. **Git est un gestionnaire de version décentralisé. Qu’est ce que cela signifie ? Quel est le rôle joué par un dépôt central sur GitHub ou GitLab dans ce cas ? Justifier.**
-   - Un gestionnaire de version décentralisé signifie que chaque utilisateur a une copie complète de l'historique du dépôt. Un dépôt central sur GitHub ou GitLab sert de point de coordination pour les contributeurs afin de synchroniser leurs travaux et faciliter la collaboration.
+   - Un gestionnaire de version décentralisé signifie que chaque utilisateur a une copie complète de l'historique du dépôt. Un dépôt central sur GitHub ou GitLab sert de dépot central pour les utilisateus afin de synchroniser leurs travaux et faciliter la collaboration.
 
 2. **À quoi sert la commande `git fetch -p` ?**
    - La commande `git fetch -p` sert à récupérer les changements depuis le dépôt distant et à supprimer les branches distantes qui ont été supprimées.
